@@ -1,0 +1,19 @@
+const myphonebook = {
+list: { 'Аня': 16161565165,
+'Илья': 21165006,
+'Мама': 1651650265,
+'Папа': 1562982920 },
+log () {
+console.log ("it's myphonebook")
+}
+};
+myphonebook.log ();
+
+myphonebook["Jennie"] = 65562056652;
+console.log (myphonebook["Jennie"]);
+
+myphonebook['Папа'] = 2656306552;
+console.log(myphonebook['Папа']);
+
+delete myphonebook['Аня'];
+console.log (myphonebook['Аня']);
